@@ -1,0 +1,7 @@
+menu/footer			Steven
+index				Lucas
+algemeen			Lucas
+contact				Patrick
+lotery + jquery		Patrick
+nieuws				Damion
+overzicht			Damion
