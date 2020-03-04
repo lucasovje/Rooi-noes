@@ -1,0 +1,22 @@
+body
+{
+    background-color: #D8B5DE;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 200px;
+}
+h2, p, h1
+{
+    color: white;
+}
+.readMore
+{
+    color: white;
+}
+.introText
+{
+    width: 800px;
+}
+.newsItem1, .newsItem2
+{
+    width: 700px;
+}
