@@ -1,0 +1,11 @@
+body
+{
+    background-color: #D8B5DE;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.input{
+    border: 2px solid red;
+    align-content: center;
+}
