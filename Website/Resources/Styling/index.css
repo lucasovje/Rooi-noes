@@ -2,7 +2,13 @@ body
 {
     background-color: #D8B5DE;
     font-family: 'Raleway', sans-serif;
+
+}
+
+main{
+    height: 800px;
     margin-left: 200px;
+    margin-top: 50px;
 }
 h2, p, h1
 {

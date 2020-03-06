@@ -7,37 +7,41 @@ body{
     width: 100%;
     background-color: rgb(223,195,228);
 }
-.artikel{
+main{
+    height: 800px;
+    margin-top: 50px;
+}
+main .artikel{
     width: 90vw;
     height: 300px;
     background-color: rgb(216,181,222);
     margin-left: 5vw;
     margin-top: 20px; 
 }
-.foto{
+main .foto{
     display: inline-block;
     width:240px;
     height:240px;
     margin-bottom: 60px;
 }
-.bericht{
+main .bericht{
     display: inline-block;
     width:calc(90vw - 270px);
     height: 300px;
     margin-left:25px;
 }
-.titel{
+main .titel{
     width:40%;
     font-size: 24pt;
     position: absolute;
 }
-.tekst{
+main .tekst{
     width:calc(90vw - 270px);
     height:250px;
     margin-top: 50px;
     position: absolute;
 }
-img{
+main img{
     width:240px;
     height:240px;
     margin-bottom:60px;

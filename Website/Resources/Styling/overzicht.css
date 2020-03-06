@@ -4,6 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body{
+    height: 800px;
     width:100%;
     background-color: rgb(223,195,228);
 }
