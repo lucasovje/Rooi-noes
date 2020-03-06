@@ -12,25 +12,25 @@ main{
     width:100%;
     height:100%;
 }
-#overzicht{
+main #overzicht{
     margin-top: 20px;
 }
-.rij{
+main .rij{
     width:100%;
     height:300px;
     margin-top:50px;
 }
-.profiel{
+main .profiel{
     width:18vw;
     height:310px;
     background-color: red;
     margin-left:calc(28vw/5);
 }
-#foto{
+main #foto{
     width:100%;
     height: 18vw;
 }
-img{
+main img{
     width: 100%;
     height:100%;
 }
