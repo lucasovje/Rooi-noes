@@ -4,6 +4,9 @@ body
     font-family: 'Raleway', sans-serif;
     align-items: center;
 }
+main{
+    height: 800px;
+}
 
 .input{
     border: 2px solid red;
