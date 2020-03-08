@@ -4,10 +4,14 @@
         <meta name="description" content="Welkom op onze website.">
         <meta name="keywords" content="home, rooie noes">
         <meta charset="utf-8">
-        <link rel=stylesheet href="../Resources/Styling/lottery.css" type="text/css">
-        <!--<link rel=stylesheet href="../Resources/Styling/index.css" type="text/css">-->
+        <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Resources/Styling/Header&Footer.css" type="text/css"> 
+        <!-- StyleSheets -->
+        <link rel="stylesheet" href="../Resources/Styling/Header&Footer.css" type="text/css">
+        <link rel=stylesheet href="../Resources/Styling/index.css" type="text/css">
+        <link rel="stylesheet" href="../Resources/Styling/lottery.css" type="text/css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="../Resources/Scripts/lotteryScript.js"></script> 
         <title>
             Buitenschoolse Opvang Rooie Noes 
         </title>
@@ -17,25 +21,26 @@
         <header>
             <ul>
                 <li>
-                    <a href="Index.html"><img src="Resources/Images/rooienoes_logo_transparent.png" id="logo" alt="Logo Rooienoes"></a>
+                    <a href="Index.html"><img src="../Resources/Images/rooienoes_logo_transparent.png" id="logo" alt="Logo Rooienoes"></a>
                 </li>
-                <li><a class="link" href="Pages/Algemeen.html"><p>Algmeen</p></a></li>
-                <li><a class="link" href="Pages/overzicht.html"><p>Overzicht</p></a></li>
-                <li><a class="link" href="Pages/nieuws.html"><p>Nieuws</p></a></li>
-                <li><a class="link" href="Pages/lottery.html"><p>Loterij</p></a></li>
-                <li><a class="link" href="Pages/contact.html"><p>Contact</p></a></li>
+                <li><a class="link" href="../Pages/Algemeen.html"><p>Algmeen</p></a></li>
+                <li><a class="link" href="../Pages/overzicht.html"><p>Overzicht</p></a></li>
+                <li><a class="link" href="../Pages/nieuws.html"><p>Nieuws</p></a></li>
+                <li><a class="link" href="../Pages/lottery.html"><p>Loterij</p></a></li>
+                <li><a class="link" href="../Pages/contact.html"><p>Contact</p></a></li>
             </ul>
         </header>
 
     <main>
 
+        <p>
         <table>
             <tr>
                 <td>
                     Voer uw naam in :
                 </td>
                 <td>
-                    <input type="text"/>
+                    <input type="text" id="nameInput"/>
                 </td>
             </tr>
             <tr>
@@ -43,10 +48,29 @@
                     Voer uw lotnummer in :
                 </td>
                 <td>
-                    <input type="number"/>
+                    <input type="number" id="numberInput"/>
                 </td>
             </tr>
+            <tr>
+                <td><button onclick="AddResult()">Check Resultaat</button></td>
+            </tr>
         </table>
+        </p>
+
+        <p>
+        <table class="participants" id="participantsTable">
+            <tr class="tableHeader">
+                <th>Deelnemer</th>
+                <th>Lotnummer</th>
+                <th>Resultaat</th>
+            </tr>
+            <tr>
+                <td>Patrick</td>
+                <td>343332</td>
+                <td class="lost">geen prijs</td>
+            </tr>
+        </table>
+        </p>
 
     </main>
 

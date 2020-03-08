@@ -9,3 +9,24 @@ body
     border: 2px solid red;
     align-content: center;
 }
+
+.lost{
+    color: red;
+}
+
+.win{
+    color: green;
+}
+
+.tableHeader{
+    font-weight: bold;
+}
+
+.participants{
+    width: 700px;
+    border: 1px solid black;
+}
+
+.participants th{
+    border: 0.5px solid black;
+}
