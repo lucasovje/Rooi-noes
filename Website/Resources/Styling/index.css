@@ -44,10 +44,15 @@ h2, p, h1
         height: 1200px;
         width: 1519px;
     }
-    footer
+    Footer
     {
         margin-top: 150px;
         width: 1519px;
+    }
+    .contactBody
+    {
+        height: 1200px !important;
+        width: 1000px !important;
     }
 }
 /* responsive pagina */
@@ -58,10 +63,10 @@ h2, p, h1
         font-size: 30px;
         width: 1000px;
     }
-    footer
+    f.contactFooter
     {
         width: 170% !important;
-        margin-top: 1350px;
+        margin-top: 1160px;
         height: 200px !important;
     }
     /* koptekst op index pagina */
@@ -74,5 +79,42 @@ h2, p, h1
     {
         font-size: 30px;
         width: 1000px;
+    }
+    /* contact pagina */
+    tr
+    {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+    }
+    h3
+    {
+        font-size: 80px;
+    }
+    button
+    {
+        height: 100px;
+        width: 300px;
+        font-size: 60px;
+    }
+    .input input
+    {
+        width: 439px;
+        height: 40px;
+    }
+    .contact
+    {
+        margin-top: 250px !important;
+    }
+    .AlgemeenFooter
+    {
+        margin-top: 150px;
+        width: 1519px;
+    }
+    footer
+    {
+        width: 170% !important;
+        margin-top: 1355px;
+        height: 200px !important;
     }
 }

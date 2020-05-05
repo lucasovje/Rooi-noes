@@ -23,7 +23,6 @@ main .rij{
 main .profiel{
     width:18vw;
     height:310px;
-    background-color: red;
     margin-left:calc(28vw/5);
 }
 main #foto{
@@ -44,27 +43,36 @@ main img{
     }
 }
 @media screen and (max-width: 1000px) {
-    /* tekst op index pagina */
-     .newsItem1, .newsItem2, .introText, .readMore
+    /* overzicht responsive maken */
+    main .profiel
     {
-        font-size: 30px;
-        width: 1000px;
+        width: 30vw;
+    }
+    main img
+    {
+        height: 230%;
+    }
+    main .rij
+    {
+        margin-top: 400px;
+    }
+    main .profiel 
+    {
+        margin-top: -150px;
+        background-color: transparent;
+        
+    }
+    #gegevens
+    {
+        background-color: red;
+        margin-top: 230px;
+        height: 200px;
+        font-size: 39px;
     }
     footer
     {
         width: 170% !important;
-        margin-top: 1350px;
+        margin-top: 1110px;
         height: 200px !important;
-    }
-    /* koptekst op index pagina */
-    h2
-    {
-        font-size: 40px;
-    }
-    /* tekst op algemeen pagina */
-    .algemeenText
-    {
-        font-size: 30px;
-        width: 1000px;
     }
 }

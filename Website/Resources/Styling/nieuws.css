@@ -55,3 +55,31 @@ main img{
         width: 178px !important;
     }
 }
+@media screen and (max-width: 1000px) {
+    main .artikel
+    {
+        width: 140vw;
+        height: 350px;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    .tekst
+    {
+        font-size: 30px;
+        width: 1079px !important;
+    }
+    main .bericht
+    {
+        width: 500px;
+    }
+    footer
+    {
+        width: 170% !important;
+        margin-top: 1450px !important;
+        height: 200px !important;
+    }
+}
+footer
+{
+    margin-top: 1000px;
+}
