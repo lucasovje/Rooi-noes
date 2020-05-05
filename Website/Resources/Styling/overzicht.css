@@ -34,4 +34,37 @@ main img{
     width: 100%;
     height:100%;
 }
-
+/*Responsive header */
+@media screen and (min-width: 600px) {
+    .header{
+        width: 1519px;
+    }
+    .link{
+        width: 178px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    /* tekst op index pagina */
+     .newsItem1, .newsItem2, .introText, .readMore
+    {
+        font-size: 30px;
+        width: 1000px;
+    }
+    footer
+    {
+        width: 170% !important;
+        margin-top: 1350px;
+        height: 200px !important;
+    }
+    /* koptekst op index pagina */
+    h2
+    {
+        font-size: 40px;
+    }
+    /* tekst op algemeen pagina */
+    .algemeenText
+    {
+        font-size: 30px;
+        width: 1000px;
+    }
+}

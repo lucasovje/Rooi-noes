@@ -46,3 +46,12 @@ main img{
     height:240px;
     margin-bottom:60px;
 }
+/*Responsive header */
+@media screen and (min-width: 600px) {
+    .header{
+        width: 1519px;
+    }
+    .link{
+        width: 178px !important;
+    }
+}

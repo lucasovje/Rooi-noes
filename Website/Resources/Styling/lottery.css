@@ -33,3 +33,12 @@ main{
 .participants th{
     border: 0.5px solid black;
 }
+/*Responsive header */
+@media screen and (min-width: 600px) {
+    .header{
+        width: 1519px;
+    }
+    .link{
+        width: 178px !important;
+    }
+}

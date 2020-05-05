@@ -30,3 +30,49 @@ h2, p, h1
 {
     width: 90%;
 }
+/*Responsive header */
+@media screen and (min-width: 600px) {
+    .header{
+        width: 1519px;
+    }
+    .link{
+        width: 178px !important;
+        margin-left: 10px;
+    }
+    body
+    {
+        height: 1200px;
+        width: 1519px;
+    }
+    footer
+    {
+        margin-top: 150px;
+        width: 1519px;
+    }
+}
+/* responsive pagina */
+@media screen and (max-width: 1000px) {
+    /* tekst op index pagina */
+     .newsItem1, .newsItem2, .introText, .readMore
+    {
+        font-size: 30px;
+        width: 1000px;
+    }
+    footer
+    {
+        width: 170% !important;
+        margin-top: 1350px;
+        height: 200px !important;
+    }
+    /* koptekst op index pagina */
+    h2
+    {
+        font-size: 40px;
+    }
+    /* tekst op algemeen pagina */
+    .algemeenText
+    {
+        font-size: 30px;
+        width: 1000px;
+    }
+}
